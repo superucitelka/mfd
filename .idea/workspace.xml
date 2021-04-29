@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2e8820f-f569-4f8f-988d-2326222c66c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/context_processors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/blocks/genre_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/blocks/top_ten.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/film/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/film/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/page/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filmweb/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/filmweb/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -33,11 +47,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/movies" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/movies/templates/film" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\mfd\movies\templates\film" />
       <recent name="C:\mfd\movies" />
     </key>
   </component>
@@ -59,9 +74,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="221" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614608314374" />
-    <state x="2272" y="77" key="SettingsEditor" timestamp="1614247067670">
+    <state x="2272" y="77" key="SettingsEditor" timestamp="1618477983769">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2272" y="77" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1614247067670" />
+    <state x="2272" y="77" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1618477983769" />
   </component>
 </project>
