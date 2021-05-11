@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2e8820f-f569-4f8f-988d-2326222c66c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/movies/context_processors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/templates/blocks/genre_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/templates/blocks/top_ten.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/templates/film/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/templates/film/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/templates/page/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/movies/film_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/movies/film_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/filmweb/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/filmweb/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/blocks/new_films.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/blocks/new_films.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/blocks/top_ten.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/blocks/top_ten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/film/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/film/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/film/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/film/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/views.py" afterDir="false" />
     </list>
@@ -47,11 +44,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/movies/templates/film" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/movies/templates/movies" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\mfd\movies\templates\movies" />
+      <recent name="C:\mfd\movies\templates\admin" />
       <recent name="C:\mfd\movies\templates\film" />
       <recent name="C:\mfd\movies" />
     </key>

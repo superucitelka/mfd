@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from django.views.generic import DetailView, ListView
+from django.urls import reverse_lazy
+from django.views.generic import DetailView, ListView, CreateView, UpdateView, DeleteView
 from movies.models import *
 
 def index(request):
@@ -56,3 +57,18 @@ class FilmDetailView(DetailView):
 
 def topten(request):
     return render(request, 'topten.html')
+
+
+class FilmCreateView(CreateView):
+    model = Film
+    fields = ['title', 'plot', 'poster', 'genres', 'release_date', 'runtime', 'rate']
+
+
+class FilmUpdateView(UpdateView):
+    model = Film
+    fields = '__all__'
+
+
+class FilmDeleteView(DeleteView):
+    model = Film
+    success_url = reverse_lazy('film_list')
