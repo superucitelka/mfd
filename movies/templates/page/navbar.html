@@ -8,6 +8,7 @@
     </button>
 
     <!-- Navbar links -->
+<<<<<<< HEAD
        <!-- Navbar links -->
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav mr-auto">
@@ -18,6 +19,16 @@
             <a class="nav-link" href="{% url 'film_list' %}">Filmy</a>
           </li>
             <!-- Dropdown -->
+=======
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="{% url 'index' %}">Úvodní stránka</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'film_list' %}">Filmy</a>
+            </li>
+>>>>>>> accounts
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                 Žánry
@@ -37,5 +48,17 @@
              <li class="nav-item"><a href="{% url 'login'%}?next={{request.path}}" class="nav-link">Login</a></li>
            {% endif %}
         </ul>
+<<<<<<< HEAD
       </div>
+=======
+        <ul class="navbar-nav">
+           {% if user.is_authenticated %}
+             <li class="nav-item"><a href="{% url 'index' %}" class="nav-link">User: {{ user.get_username }}</a></li>
+             <li class="nav-item"><a href="{% url 'logout'%}" class="nav-link">Logout</a></li>
+           {% else %}
+             <li class="nav-item"><a href="{% url 'login'%}?next={{request.path}}" class="nav-link">Login</a></li>
+           {% endif %}
+        </ul>
+    </div>
+>>>>>>> accounts
 </nav>

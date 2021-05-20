@@ -1,6 +1,9 @@
 from django.core.exceptions import ValidationError
 from django.forms import ModelForm
+<<<<<<< HEAD
 from django.forms import Form
+=======
+>>>>>>> accounts
 
 from .models import Film
 
@@ -20,4 +23,8 @@ class FilmModelForm(ModelForm):
     class Meta:
         model = Film
         fields = ['title', 'plot', 'poster', 'genres', 'release_date', 'runtime', 'rate']
+<<<<<<< HEAD
         labels = {'title': 'Název filmu', 'plot': 'Stručný děj'}
+=======
+        labels = {'title': 'Název filmu', 'plot': 'Stručný děj'}
+>>>>>>> accounts

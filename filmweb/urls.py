@@ -8,6 +8,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('movies/', include('movies.urls')),
     path('', RedirectView.as_view(url='movies/')),
+<<<<<<< HEAD
+=======
+    path('accounts/', include('accounts.urls')),
+>>>>>>> accounts
     path('accounts/', include('django.contrib.auth.urls')),
 ]
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
